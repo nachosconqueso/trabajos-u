@@ -1,0 +1,21 @@
+Proceso sin_titulo
+	Escribir "Ingrese cantidad 1"
+	leer c1
+	Escribir  "Ingrese cantidad 2"
+	leer c2
+	Escribir  "Ingrese cantida 3"
+	leer c3
+	suma <- c1+c2+c3
+	multi1 <- c1*100
+	multi2 <- c2*100
+	multi3 <- c3*100
+	div1 <- multi1/suma
+	div2 <- multi2/suma
+	div3 <- multi3/suma
+	trunc1 <- trunc (div1)
+	trunc2 <- trunc (div2)
+	trunc3 <- trunc (div3)
+	Escribir "porcentaje del primer amigo:" trunc1
+	Escribir "porcentaje del segundo amigo:" trunc2
+	Escribir "porcentaje del tercer amigo:" trunc3
+FinProceso

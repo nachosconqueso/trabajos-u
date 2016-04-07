@@ -1,0 +1,20 @@
+Proceso sin_titulo
+	escribir "Ingrese C.Parciales"
+	leer cparciales
+	escribir "Ingrese P.Talleres"
+	leer ptalleres
+	escribir "Ingrese P.Tareas"
+	leer ptareas
+	escribir "Ingrese E.Tema de investigacion"
+	leer einvestigacion
+	multi1 <- cparciales*50
+	multi2 <- ptalleres*25
+	multi3 <- ptareas*15
+	multi4 <- einvestigacion*10
+	div1 <- multi1/100
+	div2 <- multi2/100
+	div3 <- multi3/100
+	div4 <- multi4/100
+	suma <- div1+div2+div3+div4
+	escribir "la calificacion final es:" suma
+FinProceso

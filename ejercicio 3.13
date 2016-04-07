@@ -1,0 +1,18 @@
+Proceso sin_titulo
+	escribir "Ingrese costo del vehiculo"
+	leer costovehiculo
+	multi1 <- costovehiculo*8
+	multi2 <- costovehiculo*3
+	multi3 <- costovehiculo*3
+	div1 <- multi1/100
+	div2 <- multi2/100
+	div3 <- multi3/100
+	trunc1 <- trunc (div1)
+	trunc2 <- trunc (div2)
+	trunc3 <- trunc (div3)
+	suma <- trunc1+trunc2+trunc3
+	Escribir "Costo total del vehiculo:" suma
+	Escribir "Ganancia del vendedor:" trunc1
+	Escribir "Impuesto local:" trunc2
+	Escribir "Impuesto estatal:" trunc3
+FinProceso

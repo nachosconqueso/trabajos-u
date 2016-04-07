@@ -1,0 +1,19 @@
+Proceso sin_titulo
+	escribir "alumnos reprobados"
+	leer reprobados
+	escribir "alumnos aprobados"
+	leer aprobados
+	escribir "alumnos notables"
+	leer notables
+	escribir "alumnos sobresalientes"
+	leer sobresalientes
+	suma <- reprobados + aprobados + notables + sobresalientes
+	multi1 <- (reprobados*100)/suma
+	multi2 <- (aprobados*100)/suma
+	multi3 <- (notables*100)/suma
+	multi4 <- (sobresalientes*100)/suma
+	escribir "porcentaje de alumnos reprobados:" multi1
+	escribir "porcentaje de alumnos apobados:" multi2
+	escribir "porcentaje de alumnos notables:" multi3
+	escribir "porcentaje de alumnos sobresalientes" multi4
+FinProceso

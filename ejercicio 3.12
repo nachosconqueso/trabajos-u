@@ -1,0 +1,20 @@
+Proceso sin_titulo
+	escribir "ingrese monto total"
+	leer montototal
+	multi1 <- montototal*20
+	multi2 <- montototal*25
+	multi3 <- montototal*30
+	multi4 <- montototal*25
+	div1 <- multi1/100
+	div2 <- multi2/100
+	div3 <- multi3/100
+	div4 <- multi4/100
+	trunc1 <- trunc (div1)
+	trunc2 <- trunc (div2)
+	trunc3 <- trunc (div3)
+	trunc4 <- trunc (div4)
+	escribir "Kinesiologia"trunc1
+	escribir "Ginecologia"trunc2
+	escribir "Traumatologia"trunc3
+	escribir "Pediatria"trunc4
+FinProceso
