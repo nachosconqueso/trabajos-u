@@ -1,8 +1,11 @@
 Proceso sin_titulo
-	Escribir "ingrese un numero"
-	leer num1
-	Escribir "ingrese un segundo numero"
-	leer num2
-	sum1 <- num1+num2
-	Escribir "el resultado de la suma es:" sum1
+	x<-0
+	z<-1
+	n<-4000000
+	Mientras r<4000000 Hacer
+		Escribir x
+		r<-x+z
+		z<-x
+		x<-r
+	Fin Mientras
 FinProceso
